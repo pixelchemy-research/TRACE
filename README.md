@@ -18,7 +18,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Conference-ACCV%202026-blue.svg" alt="ACCV 2026"/>
-  <a href="."><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv"/></a>
+  <a href="https://arxiv.org/abs/2610.04922"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv"/></a>
   <img src="https://img.shields.io/badge/Training--Free-Yes-brightgreen.svg" alt="Training-Free"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"/></a>
 </p>
@@ -28,7 +28,7 @@
 ## 🔥 News
 
 - **Accepted at ACCV 2026**: TRACE has been accepted for presentation at ACCV 2026.
-- **2026.10.03**: The TRACE paper is now available on [arXiv](.).
+- **2026.10.03**: The TRACE paper is now available on [arXiv](https://arxiv.org/abs/2610.04922).
 - **2026.10.03**: The official TRACE code has been released!
 
 ---
@@ -124,11 +124,14 @@ The generated images will be saved in the `samples/TRACE/` directory.
 If you find TRACE useful for your research, please consider citing our paper:
 
 ```bibtex
-@inproceedings{le2026trace,
-  title     = {TRACE: Time-Adaptive Residual Attention Control with Content-Style Decomposition for Training-Free Diffusion Style Transfer},
-  author    = {Duc Khoan Le and Kim Ngoc Tran and Minh Nhat Le and Thanh An Tran and Viet Toan Nguyen and Khanh An Lay and Tran Thai Son and Hoang Pham Minh},
-  booktitle = {Asian Conference on Computer Vision (ACCV)},
-  year      = {2026}
+@misc{le2026tracetimeadaptiveresidualattention,
+      title={TRACE: Time-Adaptive Residual Attention Control with Content-Style Decomposition for Training-Free Diffusion Style Transfer}, 
+      author={Duc Khoan Le and Kim Ngoc Tran and Minh Nhat Le and Thanh An Tran and Viet Toan Nguyen and Khanh An Lay and Tran Thai Son and Hoang Pham Minh},
+      year={2026},
+      eprint={2610.04922},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.04922}, 
 }
 ```
 
